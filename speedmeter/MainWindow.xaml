@@ -1,0 +1,44 @@
+﻿<Window x:Class="speedmeter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:speedmeter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!-- Background Dial -->
+        <Ellipse Fill="#ddd" Stroke="Black" StrokeThickness="2" Width="300" Height="300" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <!-- Needle Canvas -->
+        <Canvas Width="300" Height="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Line x:Name="Needle"
+                  X1="150" Y1="150" X2="150" Y2="50"
+                  Stroke="Red" StrokeThickness="4">
+                <Line.RenderTransform>
+                    <RotateTransform x:Name="NeedleRotate" CenterX="150" CenterY="150" Angle="-90"/>
+                </Line.RenderTransform>
+            </Line>
+        </Canvas>
+
+        <!-- Speed Labels -->
+        <TextBlock Text="0" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="120,0,0,80"/>
+        <TextBlock Text="100" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,0"/>
+        <TextBlock Text="200" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,120,80"/>
+
+        <!-- Center Cap -->
+        <Ellipse Fill="Black" Width="10" Height="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <!-- Speed Display -->
+        <TextBlock x:Name="SpeedText" FontSize="24" FontWeight="Bold" Foreground="DarkBlue"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"/>
+
+        <!-- Control Buttons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20" >
+            <Button Content="Start" Width="100" Margin="5" Click="Start_Click"/>
+            <Button Content="Stop" Width="100" Margin="5" Click="Stop_Click"/>
+        </StackPanel>
+       
+   
+    </Grid>
+</Window>

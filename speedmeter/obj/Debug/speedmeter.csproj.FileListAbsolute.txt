@@ -1,0 +1,16 @@
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.csproj.AssemblyReference.cache
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\MainWindow.g.cs
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\App.g.cs
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter_MarkupCompile.cache
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter_MarkupCompile.lref
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\bin\Debug\speedmeter.exe.config
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\bin\Debug\speedmeter.exe
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\bin\Debug\speedmeter.pdb
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\MainWindow.baml
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.g.resources
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.Properties.Resources.resources
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.csproj.GenerateResource.cache
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.csproj.CoreCompileInputs.cache
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.exe
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.pdb
+C:\Users\PRAVEEN\source\repos\speedmeter\speedmeter\obj\Debug\speedmeter.exe.config
